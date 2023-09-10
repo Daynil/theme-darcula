@@ -126,7 +126,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Defaults use Material Design specification */
   /*
-   * --jp-ui-font-color0: #a9b7c6;
+   * --jp-ui-font-color0: #4a8bcf;
    * --jp-ui-font-color1: var(--md-grey-300);
    * --jp-ui-font-color2: var(--md-grey-500);
    * --jp-ui-font-color3: var(--md-grey-700);
@@ -218,7 +218,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-layout-color2: #3c3f41; /*var(--md-grey-800);*/
   --jp-layout-color3: #555758; /*var(--md-grey-700);*/
   --jp-layout-color4: #626465; /*var(--md-grey-600);*/
-  --jp-layout-color5: #a9b7c6;
+  --jp-layout-color5: #4a8bcf;
 
   /* Inverse Layout
    *
@@ -353,10 +353,10 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-editor-selected-background: var(--jp-layout-color2);
   --jp-editor-selected-focused-background: #214283;
-  --jp-editor-cursor-color: #a9b7c6; /*{ border-left: 1px solid var(--jp-ui-font-color0) };*/
+  --jp-editor-cursor-color: #4a8bcf; /*{ border-left: 1px solid var(--jp-ui-font-color0) };*/
 
   /*
-  .cm-s-darcula .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }
+  .cm-s-darcula .CodeMirror-cursor { border-left: 1px solid #4a8bcf; }
   .cm-s-darcula .CodeMirror-activeline-background { background: #323232; }
   .cm-s-darcula .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; }
   .cm-s-darcula .CodeMirror-guttermarker { color: #FFEE80; }
@@ -378,25 +378,25 @@ all of MD as it is not optimized for dense, information rich UIs.
   }
 
   .cm-s-darcula  { font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;}
-  .cm-s-darcula.CodeMirror { background: #2B2B2B; color: #A9B7C6; }
+  .cm-s-darcula.CodeMirror { background: #2B2B2B; color: #4a8bcf; }
 
   .cm-s-darcula span.cm-keyword    { color: #CC7832; line-height: 1em; font-weight: bold; }
   .cm-s-darcula span.cm-atom       { color: #CC7832; }
   .cm-s-darcula span.cm-number     { color: #6897BB; }
-  .cm-s-darcula span.cm-def        { color: #A9B7C6; font-style: italic; }
-  .cm-s-darcula span.cm-variable   { color: #A9B7C6; }
-  .cm-s-darcula span.cm-variable-2 { color: #A9B7C6; }
+  .cm-s-darcula span.cm-def        { color: #4a8bcf; font-style: italic; }
+  .cm-s-darcula span.cm-variable   { color: #4a8bcf; }
+  .cm-s-darcula span.cm-variable-2 { color: #4a8bcf; }
   .cm-s-darcula span.cm-variable-3 { color: #9876AA; }
   .cm-s-darcula span.cm-special    { color: #FF9E59; }
   .cm-s-darcula span.cm-property   { color: #FFC66D; }
-  .cm-s-darcula span.cm-operator   { color: #A9B7C6; }
+  .cm-s-darcula span.cm-operator   { color: #4a8bcf; }
   .cm-s-darcula span.cm-comment    { color: #61A151; font-style: italic; }
   .cm-s-darcula span.cm-string     { color: #6A8759; }
   .cm-s-darcula span.cm-string-2   { color: #6A8759; }
   .cm-s-darcula span.cm-meta       { color: #BBB529; }
   .cm-s-darcula span.cm-qualifier  { color: #6A8759; }
   .cm-s-darcula span.cm-builtin    { color: #FF9E59; }
-  .cm-s-darcula span.cm-bracket    { color: #A9B7C6; }
+  .cm-s-darcula span.cm-bracket    { color: #4a8bcf; }
   .cm-s-darcula span.cm-tag        { color: #629755; font-weight: bold; font-style: italic; text-decoration: underline; }
   .cm-s-darcula span.cm-attribute  { color: #6897bb; }
 
@@ -411,19 +411,19 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-atom-color: #cc7832;
   --jp-mirror-editor-number-color: #6897bb;
   --jp-mirror-editor-def-color: #ffc66d;
-  --jp-mirror-editor-variable-color: #a9b7c6;
+  --jp-mirror-editor-variable-color: #4a8bcf;
   --jp-mirror-editor-variable-2-color: #94558d;
   --jp-mirror-editor-variable-3-color: #9876aa;
   --jp-mirror-editor-punctuation-color: #ff9e59;
-  --jp-mirror-editor-property-color: #a9b7c6;
-  --jp-mirror-editor-operator-color: #a9b7c6;
+  --jp-mirror-editor-property-color: #4a8bcf;
+  --jp-mirror-editor-operator-color: #4a8bcf;
   --jp-mirror-editor-comment-color: #808080;
   --jp-mirror-editor-string-color: #6a8759;
   --jp-mirror-editor-string-2-color: #6a8759;
   --jp-mirror-editor-meta-color: #bbb529;
   --jp-mirror-editor-qualifier-color: #6a8759;
   --jp-mirror-editor-builtin-color: #ff9e59;
-  --jp-mirror-editor-bracket-color: #a9b7c6;
+  --jp-mirror-editor-bracket-color: #4a8bcf;
   --jp-mirror-editor-tag-color: #629755;
   --jp-mirror-editor-attribute-color: #6897bb;
 
